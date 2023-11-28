@@ -31,9 +31,8 @@ function AnimeCard({ anime, index }: Prop) {
       animate="visible"
       transition={{
         delay: 1,
-        duration: 0.25 * index,
+        duration: 0.5 * index,
         ease: "easeInOut",
-        type: "spring",
       }}
       viewport={{ amount: 0 }}
       className="max-w-sm rounded relative w-full"
