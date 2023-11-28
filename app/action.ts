@@ -2,7 +2,7 @@
 
 const fetchAnimeData = async (page: number) => {
   const response = await fetch(
-    "https://shikimori.one/api/animes?limit=16&page=" +
+    "https://shikimori.one/api/animes?limit=8&page=" +
       page +
       "&order=popularity&kind=tv&status=ongoing"
   );
